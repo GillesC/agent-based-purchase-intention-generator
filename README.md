@@ -21,11 +21,29 @@ This application will generate deliveries made by agents based on real human pur
 Algorithm to choose if consumer will drive a distance to collect his order:
 
 In the global config.xml file:
-< X km (MAX , MIN) -> generate random number between MAX and MIN,
+(X, Y) km (MAX , MIN) -> generate random number (based on distance away) between MAX and MIN,
 this will be the chance the consumer is willing to drive to a collection point
-who is X km away from his house.
+who is between X and Y km away from his house.
 
 This will be statically declared in the config.xml file, for example:
-<5 km (100,80)
-< 10km (80,60)
-> 10km (60,0)
+```xml
+<distanceWillingToDrive>
+<close>
+    <min-dist>0</min-dist>
+    <max-dist>5</max-dist>
+    <min-chance>100</min-chance>
+    <max-chance>80</max-chance>
+</close>
+<medium>
+    <min-dist>5</min-dist>
+    <max-dist>10</max-dist>
+    <min-chance>80</min-chance>
+    <max-chance>40</max-chance>
+</medium>
+<far>
+    <min-dist>10</min-dist>
+    <max-dist>1000</max-dist>
+    <min-chance>50</min-chance>
+    <max-chance>0</max-chance>
+</far>
+```
