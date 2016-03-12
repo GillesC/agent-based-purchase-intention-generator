@@ -4,6 +4,6 @@
 public class ConfigurationFile {
     private double chanceGreenPopulation;
     private double chanceNeedRecognizing;
-
+    private double chanceWillingToRideFurther;
 
 }
