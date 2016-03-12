@@ -1,4 +1,6 @@
-# agent-based-purchase-intention-generator
+# Agent-based Purchase Intention Generator
+[School project]
+This application will generate deliveries made by agents based on real human purchase behaviour.
 
 ## TODO
 1. Creating global config file to manipulate agent profile generation
