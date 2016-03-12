@@ -5,5 +5,6 @@
  */
 public class Agent {
     private AgentProfile profile;
+    private GeoLocation location;
 
 }

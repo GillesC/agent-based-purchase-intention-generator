@@ -12,7 +12,7 @@ public class AgentProfile {
                                             // other valuable parameters are in Shop and Product Profiles
 
     private double needRecognizing;         // how sensitive is the consumer to buying products
-                                            // this will depend also on the category of the product
+                                            // this will also depend on the category of the product
 
 
 
