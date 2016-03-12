@@ -35,19 +35,19 @@ This will be statically declared in the config.xml file, for example:
 <close>
     <min-dist>0</min-dist>
     <max-dist>5</max-dist>
-    <min-chance>1</min-chance>
-    <max-chance>0.8</max-chance>
+    <min-chance>0.8</min-chance>
+    <max-chance>1</max-chance>
 </close>
 <medium>
     <min-dist>5</min-dist>
     <max-dist>10</max-dist>
-    <min-chance>0.8</min-chance>
-    <max-chance>0.4</max-chance>
+    <min-chance>0.4</min-chance>
+    <max-chance>0.8</max-chance>
 </medium>
 <far>
     <min-dist>10</min-dist>
     <max-dist>1000</max-dist>
-    <min-chance>0.5</min-chance>
-    <max-chance>0</max-chance>
+    <min-chance>0</min-chance>
+    <max-chance>0.5</max-chance>
 </far>
 ```
