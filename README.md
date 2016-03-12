@@ -9,7 +9,7 @@ This application will generate deliveries made by agents based on real human pur
     - Products static: product_name, price, category
     - Static mapping category_<-> need_recognizing
     - Generate random agent profiles ased on global config file
-    - Static shop (see shopprifile class)
+    - Static shop (see shop profile class)
 4. Design algorithm to make a decision based on the profiles and randomises
 
 ## Done
