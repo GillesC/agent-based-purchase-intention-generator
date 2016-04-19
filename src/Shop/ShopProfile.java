@@ -1,3 +1,5 @@
+package Shop;
+
 /**
  * This class will represent a profile of a shop
  * These parameters will contribute to the consummation decision

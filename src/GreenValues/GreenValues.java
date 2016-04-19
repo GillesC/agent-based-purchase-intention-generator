@@ -1,3 +1,5 @@
+package GreenValues;
+
 /**
  * Class containing different constant values for green paramaters
  */
@@ -8,7 +10,7 @@ public class GreenValues {
     public static double GREEN_BRAND_IMAGE_CONTRIBUTION_PERCENTIGE = 13;
     public static double ENVIRONMENTAL_ADVERTISEMENT_CONTRIBUTION_PERCENTIGE = 34;
 
-    /* Agent parameters*/
+    /* Agent.Agent parameters*/
     public static double GREEN_AWERENESS_CONTRIBUTION_PERCENTIGE = 19;
 
     /* There is still 1.2% contribution to GPIN needed so that needs to be random distributed across the other parameters*/

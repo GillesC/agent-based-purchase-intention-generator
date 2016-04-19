@@ -1,4 +1,4 @@
-# Agent-based Purchase Intention Generator
+# Agent.Agent-based Purchase Intention Generator
 [School project]
 This application will generate deliveries made by agents based on real human purchase behaviour.
 
@@ -14,7 +14,7 @@ This application will generate deliveries made by agents based on real human pur
 
 ## Done
 1. Profile file (can be updated over time):
-    - Agent
+    - Agent.Agent
     - Shop
     
 ## Collection point

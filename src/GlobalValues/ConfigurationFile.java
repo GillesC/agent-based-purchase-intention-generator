@@ -1,3 +1,5 @@
+package GlobalValues;
+
 /**
  * Class containing global configuration file who manipulates agent profile generation
  */
